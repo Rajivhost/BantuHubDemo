@@ -3,8 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BantuHub.Demo.Linq", "BantuHub.Demo.Linq\BantuHub.Demo.Linq.csproj", "{61F191E2-C59D-49BA-BB0A-FBE8DCCD298D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BantuHub.Demo.Ef", "BantuHub.Demo.Ef\BantuHub.Demo.Ef.csproj", "{26D04986-31B0-4644-A74F-67C528D4934F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{228E69E6-DD2D-441D-B351-EAD1AEC0FA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BantuHub.Demo.Async", "BantuHub.Demo.Async\BantuHub.Demo.Async.csproj", "{80A1B840-C948-4AD0-8414-34EA80971A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BantuHub.Demo.SignalR.Client", "BantuHub.Demo.SignalR.Client\BantuHub.Demo.SignalR.Client.csproj", "{ADBC1380-6F60-4410-A4F9-E57E1DB3520C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BantuHub.Demo.SignalR.Server", "BantuHub.Demo.SignalR.Server\BantuHub.Demo.SignalR.Server.csproj", "{38CEBF44-6765-49DF-B5F5-A0A32395216D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F191E2-C59D-49BA-BB0A-FBE8DCCD298D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F191E2-C59D-49BA-BB0A-FBE8DCCD298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F191E2-C59D-49BA-BB0A-FBE8DCCD298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F191E2-C59D-49BA-BB0A-FBE8DCCD298D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D04986-31B0-4644-A74F-67C528D4934F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D04986-31B0-4644-A74F-67C528D4934F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D04986-31B0-4644-A74F-67C528D4934F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D04986-31B0-4644-A74F-67C528D4934F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A1B840-C948-4AD0-8414-34EA80971A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A1B840-C948-4AD0-8414-34EA80971A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A1B840-C948-4AD0-8414-34EA80971A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A1B840-C948-4AD0-8414-34EA80971A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBC1380-6F60-4410-A4F9-E57E1DB3520C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBC1380-6F60-4410-A4F9-E57E1DB3520C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBC1380-6F60-4410-A4F9-E57E1DB3520C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBC1380-6F60-4410-A4F9-E57E1DB3520C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CEBF44-6765-49DF-B5F5-A0A32395216D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CEBF44-6765-49DF-B5F5-A0A32395216D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CEBF44-6765-49DF-B5F5-A0A32395216D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CEBF44-6765-49DF-B5F5-A0A32395216D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADBC1380-6F60-4410-A4F9-E57E1DB3520C} = {228E69E6-DD2D-441D-B351-EAD1AEC0FA65}
+		{38CEBF44-6765-49DF-B5F5-A0A32395216D} = {228E69E6-DD2D-441D-B351-EAD1AEC0FA65}
 	EndGlobalSection
 EndGlobal
